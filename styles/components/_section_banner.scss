@@ -1,0 +1,93 @@
+.banner {
+    background-image: url(/images/banner.jpg);
+    margin: 0 auto;
+}
+
+.banner_text {
+    max-width: 920px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 150px 0 60px 0;
+    text-align: center;
+    h1 {
+        font-family: "Open Sans";
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 1.5em;
+        text-transform: uppercase;
+        color: #ffffff;
+        padding-bottom: 40px;
+        @media screen and (max-width: 767px) {
+            font-size: 40px;
+            line-height: 1.1em;
+            padding-bottom: 20px;
+        }
+        @media screen and (max-width: 374px) {
+            font-size: 30px;
+            line-height: 1.1em;
+            padding-bottom: 20px;
+        }
+    }
+    p {
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 1.5em;
+        padding-bottom: 70px;
+        @media screen and (max-width: 767px) {
+            font-size: 18px;
+            line-height: 1.1em;
+            padding-bottom: 20px;
+        }
+        @media screen and (max-width: 374px) {
+            font-size: 15px;
+            line-height: 1.2em;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.banner_popup {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    @media screen and (max-width: 767px) {
+        padding-bottom: 10px;
+    }
+    @media screen and (max-width: 374px) {
+        padding-bottom: 20px;
+    }
+}
+
+.popup {
+    padding: 15px 35px 15px 35px;
+    margin-top: 20px;
+    top: 18px;
+    border: 1px solid transparent;
+    background-color: #e84545;
+    font-size: 13px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 2px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    transition: 0.5s;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+#checkbox-popup {
+    display: none;
+}
+
+.popup:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.bounceInDown {
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
+}

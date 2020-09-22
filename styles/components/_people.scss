@@ -1,0 +1,64 @@
+.section_people {
+    padding: 100px 0 100px 0;
+}
+
+.section_people_box {
+    display: flex;
+}
+
+.box_people {
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 1023px) {
+        flex-wrap: wrap;
+    }
+    @media screen and (max-width: 767px) {
+        flex-wrap: wrap;
+    }
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 23%;
+    padding-left: 2%;
+    @media screen and (max-width: 1023px) {
+        width: 46%;
+    }
+    @media screen and (max-width: 767px) {
+        width: 46%;
+    }
+    @media screen and (max-width: 374px) {
+        width: 92%;
+    }
+    h3 {
+        margin: 10px 0 8px 0;
+        font-size: 22px;
+        font-weight: bold;
+        color: #2d3033;
+    }
+    h4 {
+        margin: 10px 0 15px 0;
+        text-transform: uppercase;
+        color: #e84545;
+        font-size: 13px;
+    }
+    p {
+        line-height: 1.4em;
+    }
+    img {
+        width: 100%;
+        padding-right: 10px;
+        transition: 0.5s;
+    }
+}
+
+.people_icon {
+    padding-top: 20px;
+    display: flex;
+}
+
+.people img:hover {
+    transform: scale(1.05);
+}
