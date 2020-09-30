@@ -90,7 +90,7 @@
 }
 
 .banner {
-  background-image: url(/images/banner.jpg);
+  background-image: url(../images/banner.jpg);
   margin: 0 auto;
 }
 
@@ -183,7 +183,6 @@
   background-color: #e84545;
   font-size: 13px;
   font-weight: 600;
-  border: 0;
   border-radius: 2px;
   text-transform: uppercase;
   vertical-align: middle;
